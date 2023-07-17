@@ -17,7 +17,7 @@ function add(num1, num2) {
   let firstNumber;
   let secondNumber;
   let thirdNumber;
-  let numberCheck = 0;
+  var numberCheck = 0;
   let operatorCheck = '';
   let displayNumber = 0;
   let operatorNumber = 0;
@@ -97,13 +97,14 @@ function add(num1, num2) {
   });
   
   clear.addEventListener('click', () => {
-     thirdNumber = 0;
-     firstNumber = 0;
-     secondNumber = 0;
+     firstNumber;
+     secondNumber;
+     thirdNumber;
      numberCheck = 0;
      operatorCheck = '';
      displayNumber = 0;
-     display.textContent = ''
+     operatorNumber = 0;
+     display.textContent = '';
   })
   backSpace.addEventListener('click', () => {
     display.textContent = display.textContent.slice(0, -1);
