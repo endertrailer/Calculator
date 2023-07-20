@@ -23,7 +23,7 @@ body {
     display: flex;
     font-size: 30px;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     height: 50px;
     width: 260px;
     margin-top: 5px;
@@ -31,8 +31,9 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     border: 1px solid rgb(173, 18, 43);
-    background-color: rgb(117, 224, 180);
+    background-color: whitesmoke;
     border-radius: 25px;
+    text-align: center;
     
 }
 
