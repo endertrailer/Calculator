@@ -108,4 +108,11 @@ function add(num1, num2) {
   })
   backSpace.addEventListener('click', () => {
     display.textContent = display.textContent.slice(0, -1);
+    firstNumber = display.textContent.slice(0, -1);
+    secondNumber;
+    thirdNumber;
+    numberCheck = 0;
+    operatorCheck = '';
+    displayNumber = 0;
+    operatorNumber = 0;
   })
